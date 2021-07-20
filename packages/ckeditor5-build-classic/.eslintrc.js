@@ -9,6 +9,10 @@
 
 module.exports = {
 	rules: {
-		'ckeditor5-rules/ckeditor-imports': 'off'
-	}
+		'linebreak-style': ['error', 'windows'],
+		'array-bracket-spacing': ['error', 'never'],
+		'space-in-parens': [2, 'never'],
+		'comma-dangle': ['error', 'only-multiline'],
+		'ckeditor5-rules/ckeditor-imports': 'off',
+	},
 };

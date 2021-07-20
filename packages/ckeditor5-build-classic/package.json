@@ -25,25 +25,13 @@
     "build"
   ],
   "dependencies": {
-    "@ckeditor/ckeditor5-adapter-ckfinder": "^29.0.0",
-    "@ckeditor/ckeditor5-autoformat": "^29.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^29.0.0",
-    "@ckeditor/ckeditor5-block-quote": "^29.0.0",
-    "@ckeditor/ckeditor5-ckfinder": "^29.0.0",
-    "@ckeditor/ckeditor5-cloud-services": "^29.0.0",
-    "@ckeditor/ckeditor5-easy-image": "^29.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^29.0.0",
     "@ckeditor/ckeditor5-essentials": "^29.0.0",
     "@ckeditor/ckeditor5-heading": "^29.0.0",
-    "@ckeditor/ckeditor5-image": "^29.0.0",
-    "@ckeditor/ckeditor5-indent": "^29.0.0",
     "@ckeditor/ckeditor5-link": "^29.0.0",
     "@ckeditor/ckeditor5-list": "^29.0.0",
-    "@ckeditor/ckeditor5-media-embed": "^29.0.0",
-    "@ckeditor/ckeditor5-paragraph": "^29.0.0",
-    "@ckeditor/ckeditor5-paste-from-office": "^29.0.0",
-    "@ckeditor/ckeditor5-table": "^29.0.0",
-    "@ckeditor/ckeditor5-typing": "^29.0.0"
+    "@ckeditor/ckeditor5-paragraph": "^29.0.0"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^29.0.0",

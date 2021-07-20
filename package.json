@@ -35,7 +35,7 @@
     "@ckeditor/ckeditor5-ckfinder": "^29.0.0",
     "@ckeditor/ckeditor5-clipboard": "^29.0.0",
     "@ckeditor/ckeditor5-cloud-services": "^29.0.0",
-    "@ckeditor/ckeditor5-code-block": "^29.0.0",
+    "@ckeditor/ckeditor5-code-block": "file:packages/ckeditor5-code-block",
     "@ckeditor/ckeditor5-core": "^29.0.0",
     "@ckeditor/ckeditor5-easy-image": "^29.0.0",
     "@ckeditor/ckeditor5-editor-balloon": "^29.0.0",
@@ -61,7 +61,7 @@
     "@ckeditor/ckeditor5-media-embed": "^29.0.0",
     "@ckeditor/ckeditor5-mention": "^29.0.0",
     "@ckeditor/ckeditor5-page-break": "^29.0.0",
-    "@ckeditor/ckeditor5-paragraph": "^29.0.0",
+    "@ckeditor/ckeditor5-paragraph": "file:packages/ckeditor5-paragraph",
     "@ckeditor/ckeditor5-paste-from-office": "^29.0.0",
     "@ckeditor/ckeditor5-remove-format": "^29.0.0",
     "@ckeditor/ckeditor5-restricted-editing": "^29.0.0",
@@ -170,7 +170,8 @@
     "switch-to-dev-dev": "sh ./scripts/switch-to-dev-dev.sh",
     "clean-up-svg-icons": "sh ./scripts/clean-up-svg-icons.sh",
     "dll:build": "node ./scripts/dll/build-dlls.js",
-    "check-dependencies": "ckeditor5-dev-tests-check-dependencies"
+    "check-dependencies": "ckeditor5-dev-tests-check-dependencies",
+    "build": "react-scripts build"
   },
   "lint-staged": {
     "**/*.js": [
